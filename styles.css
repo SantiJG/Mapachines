@@ -34,8 +34,8 @@ ul{
 padding: 0;
 }
 nav{
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: rgb(68, 67, 67);
     padding: .5rem;
@@ -54,7 +54,7 @@ nav ul li {
     height: 20px;
     border-radius: 9px;
 }
-nav ul li a {
+nav ul a {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
@@ -84,3 +84,16 @@ nav img {
         text-align: center;
     }
 }
+ .registercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+ }
+ .inputcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 7;
+ }
+ .tituloregister {
+    margin: 2rem 0 3rem 0 ;
+ }

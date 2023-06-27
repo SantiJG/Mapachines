@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./Mapachines/logo.png">
 </head>
-<ul>
-    <li><a href="./Index.html">Inicio</a></li>
-    <li><a href="">Videos</a></li>
-</ul>
+<nav>
+    <img src="./Mapachines/logo menu.png" alt="Logo Mapache" height="150" >
+   <ul>
+      <a href="./Index.html"><li>Inicio</li></a>
+      <a href=""><li>Videos</li></a>
+   </ul>
+ </nav>
 <body>
-    <h1>Ingresa tus datos aca</h1>
-    <form>
+    <div class="registercontainer">
+     <div>
+      <h1 class="tituloregister">Ingresa tus datos aca</h1>
+      <form class="inputcontainer">
         <label for="Nombre"> Nombre</label>
         <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
         <br>
@@ -32,6 +37,8 @@
         <br>
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar Todo">
-    </form>
+      </form>
+   </div>
+  </div>
 </body>
 </html>
